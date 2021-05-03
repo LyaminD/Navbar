@@ -1,0 +1,41 @@
+body {
+  box-shadow: 0px 0px 10px grey;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  font-family: Baloo Bhai, cursive;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.flooop {
+  width: 100px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+li {
+  padding-left: 5px;
+}
+
+a {
+  text-decoration-line: none;
+  color: #ff9a17;
+  text-transform: uppercase;
+  font-size: 25px;
+  border-left: 3px solid transparent;
+}
+
+nav ul li a:hover {
+  border-left: 3px solid #ffd754;
+  transition: 0.5s;
+}
